@@ -39,4 +39,4 @@ spring:
   profiles: prod
   
 msaconfig:
-  greeting: "welcome to prod server!"
+  greeting: "1welcome to prod server!"
