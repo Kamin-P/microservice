@@ -1,0 +1,5 @@
+spring:
+  profiles: staging
+  
+msaconfig:
+  greeting: "welcome to staging server"

@@ -1,0 +1,6 @@
+spring:
+  profiles: local
+
+msaconfig:
+  greeting: "welcome to local server"
+

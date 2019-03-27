@@ -1,0 +1,5 @@
+spring:
+  profiles: prod
+  
+msaconfig:
+  greeting: "welcome to prod server"

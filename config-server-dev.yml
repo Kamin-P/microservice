@@ -1,0 +1,5 @@
+spring:
+  profiles: dev
+
+msaconfig:
+  greeting: "welcome to dev server"
