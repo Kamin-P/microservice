@@ -1,5 +1,0 @@
-spring:
-  profiles: test
-  
-msaconfig:
-  greeting: "welcome to test server"
