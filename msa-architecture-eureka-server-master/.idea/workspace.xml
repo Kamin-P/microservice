@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b80640c9-c767-4014-8466-517b5541d836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../msa-book-master/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/out/production/classes/META-INF/msa-architecture-config-server-master_main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/msa-architecture-eureka-server-master_main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/out/production/classes/META-INF/msa-architecture-zuul-server-master_main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-book-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/out/production/classes/META-INF/com.hoony.msa.msa-service-coffee-member.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/src/main/resources/sql/microservice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-member/src/main/resources/sql/microservice.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/messageq/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/messageq/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/rest/CoffeeOrderStatusRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/rest/CoffeeOrderStatusRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/resources/sql/microservice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/resources/sql/microservice.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -70,10 +52,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="79" />
-    <option name="y" value="462" />
-    <option name="width" value="1189" />
-    <option name="height" value="571" />
+    <option name="x" value="50" />
+    <option name="y" value="23" />
+    <option name="width" value="1404" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,7 +131,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553847322006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553847891705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
