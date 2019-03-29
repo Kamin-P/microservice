@@ -7,10 +7,8 @@
       <change beforePath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msa-service-coffee-member/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/msa-service-coffee-member/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msa-service-coffee-member/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -114,20 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/msa-service-coffee-member/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -190,8 +188,8 @@
         <option value="$PROJECT_DIR$/msa-service-coffee-status/src/main/resources/sql/microservice.xml" />
         <option value="$PROJECT_DIR$/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" />
         <option value="$PROJECT_DIR$/msa-service-coffee-member/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/msa-service-coffee-member/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/msa-service-coffee-member/.gitignore" />
       </list>
     </option>
   </component>
@@ -221,6 +219,11 @@
               <item name="msa-book-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="msa-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msa-book-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="msa-service-coffee-member" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +241,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553878706756" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553878831076" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -352,7 +355,7 @@
       <workItem from="1553534587957" duration="12029000" />
       <workItem from="1553700334512" duration="8822000" />
       <workItem from="1553756154737" duration="877000" />
-      <workItem from="1553784263210" duration="26546000" />
+      <workItem from="1553784263210" duration="26658000" />
     </task>
     <task id="LOCAL-00001" summary="update build.gradle files">
       <created>1553833137069</created>
@@ -368,11 +371,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553847318215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update build.gradle files">
+      <created>1553878730625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553878730625</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update build.gradle files">
+      <created>1553878807957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553878807958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48734000" />
+    <option name="totallyTimeSpent" value="48846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-267" y="-1366" width="1877" height="1240" extended-state="0" />
@@ -419,9 +436,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update build.gradle files" />
     <MESSAGE value="add payment method #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add payment method #1" />
+    <MESSAGE value="update build.gradle files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update build.gradle files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew">
@@ -722,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msa-service-coffee-member/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1" />
@@ -736,8 +746,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msa-service-coffee-member/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
