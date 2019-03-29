@@ -9,4 +9,7 @@ public interface ICoffeeStatusMapper {
 	int insertCoffeeOrderStatus(OrderStatusDVO orderStatusDVO);
 	OrderStatusDVO selectCoffeeOrderStatus();
 	int createStatusTable();
+
+	// payment
+	int insertCoffeeOrderPayment(OrderStatusDVO orderStatusDVO);
 }

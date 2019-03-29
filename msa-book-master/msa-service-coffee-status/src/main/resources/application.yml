@@ -1,3 +1,7 @@
+logging:
+  level:
+    org.apache.kafka.clients: ERROR
+
 server:
   port: 8082
 

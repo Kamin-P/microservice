@@ -8,7 +8,7 @@ spring:
   application:
     name: msa-service-coffee-member
 
-#Config Server      
+#Config Server
   cloud:
     config:
       uri: http://localhost:8888 
@@ -19,7 +19,11 @@ management:
   security:
     enabled: false
 
-#Eureka Client   
+#security:
+#  basic:
+#    enabled: false
+
+#Eureka Client
 eureka:
   client:
     serviceUrl:

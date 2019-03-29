@@ -21,6 +21,8 @@ public class KafkaConsumer {
 		OrderStatusDVO orderStatusDVO = new OrderStatusDVO();
 		orderStatusDVO.setOrderHistory(kafkaMessage);
 		
-		iCoffeeStatusMapper.insertCoffeeOrderStatus(orderStatusDVO);
+		if (iCoffeeStatusMapper.insertCoffeeOrderStatus(orderStatusDVO) > 0) {
+			iCoffeeStatusMapper.insertCoffeeOrderPayment(orderStatusDVO);
+		}
     }
 }

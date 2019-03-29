@@ -6,10 +6,21 @@
 		create table coffee_order_status(
 			   id int primary key
 			 , order_history varchar(300)
-		 )
+		 );
+		 create table coffee_order_payment(
+			   id int primary key
+			 , order_history varchar(300)
+		 );
 	</update>
 	<insert id="insertCoffeeOrderStatus" parameterType="com.example.msa.springboot.repository.dvo.OrderStatusDVO">
 	 	insert into coffee_order_status values (
+	 	    1
+	 	   ,#{orderHistory}
+	 	)
+	</insert>
+
+	<insert id="insertCoffeeOrderPayment" parameterType="com.example.msa.springboot.repository.dvo.OrderStatusDVO">
+	 	insert into coffee_order_payment values (
 	 	    1
 	 	   ,#{orderHistory}
 	 	)
