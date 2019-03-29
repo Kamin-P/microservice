@@ -5,6 +5,7 @@
 *.log
 *.classpath
 *.project
+workspace.xml
 /build/*
 /test/*
 /bin/*
