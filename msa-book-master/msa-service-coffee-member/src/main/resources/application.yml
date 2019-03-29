@@ -19,10 +19,6 @@ management:
   security:
     enabled: false
 
-#security:
-#  basic:
-#    enabled: false
-
 #Eureka Client
 eureka:
   client:

@@ -7,6 +7,10 @@
 *.project
 /build/*
 /test/*
+/bin/*
+/out/*
+/.settings/*
+/.idea/*
 
 # Package Files #
 *.jar

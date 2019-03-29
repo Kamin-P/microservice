@@ -7,6 +7,11 @@
 *.project
 /build/*
 /test/*
+/bin/*
+/.idea/*
+/.settings/*
+/gradle/*
+/.gradle/*
 
 # Package Files #
 *.jar
