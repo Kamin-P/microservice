@@ -26,8 +26,12 @@ zuul:
       
     coffeeMember:
       path: /coffeeMember/** 
-      serviceId: msa-service-coffee-member  
-      
-    coffeeStatus: 
+      serviceId: msa-service-coffee-member
+
+    coffeeStatus:
       path: /coffeeStatus/**
       serviceId: msa-service-coffee-status
+
+    coffeePayment:
+      path: /coffeePayment/**
+      serviceId: msa-service-coffee-payment

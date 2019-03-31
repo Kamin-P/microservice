@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/msa-service-coffee-member" />
             <option value="$PROJECT_DIR$/msa-service-coffee-order" />
+            <option value="$PROJECT_DIR$/msa-service-coffee-payment" />
             <option value="$PROJECT_DIR$/msa-service-coffee-status" />
           </set>
         </option>

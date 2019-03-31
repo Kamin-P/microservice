@@ -8,7 +8,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Mapper
 public interface ICoffeeMemberMapper {
-	MemberDVO existsByMemberName(MemberDVO memberDVO);
-	int createMemberTable();
-	int insertMemberData();
+    MemberDVO existsByMemberName(MemberDVO memberDVO);
+
+    int createMemberTable();
+
+    int insertMemberData();
 }

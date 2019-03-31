@@ -17,60 +17,61 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 @RefreshScope
 @RestController
 public class CoffeeMemberRestController {
-	
-	@Autowired
-	ICoffeeMemberMapper iCoffeeMemberMapper;
 
-	@Autowired
-	ServiceConfig serviceConfig;
+    @Autowired
+    ICoffeeMemberMapper iCoffeeMemberMapper;
 
-	@RequestMapping(value = "/coffeeMember/v1.0/greet", method = RequestMethod.GET)
-	public String greet() {
-		return serviceConfig.getGreeting();
-	}
+    @Autowired
+    ServiceConfig serviceConfig;
 
-	@HystrixCommand
-	@RequestMapping(value = "/coffeeMember/v1.0/{memberName}", method = RequestMethod.GET)
-	public boolean coffeeMember(@PathVariable("memberName") String memberName) {
-		
-		MemberDVO memberDVO = new MemberDVO();
-		memberDVO.setMemberName(memberName);
-		
-		if(iCoffeeMemberMapper.existsByMemberName(memberDVO)
-				.getMemberName()
-				.isEmpty()) return false;
-		else return true;
-	}
+    @RequestMapping(value = "/coffeeMember/v1.0/greet", method = RequestMethod.GET)
+    public String greet() {
+        return serviceConfig.getGreeting();
+    }
 
-	@HystrixCommand
-	@RequestMapping(value = "/coffeeMember/v1.1", method = RequestMethod.POST)
-	public boolean coffeeMember(@RequestBody MemberRVO memberRVO) {
-		
-		MemberDVO memberDVO = new MemberDVO();
-		memberDVO.setMemberName(memberRVO.getMemberName());
-		
-		if(iCoffeeMemberMapper.existsByMemberName(memberDVO)
-				.getMemberName()
-				.isEmpty()) return false;
-		else return true;
-	}
-	
-	@HystrixCommand(fallbackMethod = "fallbackFunction")
-	@RequestMapping(value = "/fallbackTest", method = RequestMethod.GET)
-	public String fallbackTest() throws Throwable{
-		throw new Throwable("fallbackTest");
-	}
-	public String fallbackFunction(){
-		return "fallbackFunction()";
-	}
-	
-	@RequestMapping(value = "/createMemberTable", method = RequestMethod.PUT)
-	public void createMemberTable() {
-		iCoffeeMemberMapper.createMemberTable();
-	}
-	
-	@RequestMapping(value = "/insertMemberData", method = RequestMethod.PUT)
-	public void insertMemberData() {
-		iCoffeeMemberMapper.insertMemberData();
-	}
+    @HystrixCommand
+    @RequestMapping(value = "/coffeeMember/v1.0/{memberName}", method = RequestMethod.GET)
+    public boolean coffeeMember(@PathVariable("memberName") String memberName) {
+
+        MemberDVO memberDVO = new MemberDVO();
+        memberDVO.setMemberName(memberName);
+
+        if (iCoffeeMemberMapper.existsByMemberName(memberDVO)
+                .getMemberName()
+                .isEmpty()) return false;
+        else return true;
+    }
+
+    @HystrixCommand
+    @RequestMapping(value = "/coffeeMember/v1.1", method = RequestMethod.POST)
+    public boolean coffeeMember(@RequestBody MemberRVO memberRVO) {
+
+        MemberDVO memberDVO = new MemberDVO();
+        memberDVO.setMemberName(memberRVO.getMemberName());
+
+        if (iCoffeeMemberMapper.existsByMemberName(memberDVO)
+                .getMemberName()
+                .isEmpty()) return false;
+        else return true;
+    }
+
+    @HystrixCommand(fallbackMethod = "fallbackFunction")
+    @RequestMapping(value = "/fallbackTest", method = RequestMethod.GET)
+    public String fallbackTest() throws Throwable {
+        throw new Throwable("fallbackTest");
+    }
+
+    public String fallbackFunction() {
+        return "fallbackFunction()";
+    }
+
+    @RequestMapping(value = "/createMemberTable", method = RequestMethod.PUT)
+    public void createMemberTable() {
+        iCoffeeMemberMapper.createMemberTable();
+    }
+
+    @RequestMapping(value = "/insertMemberData", method = RequestMethod.PUT)
+    public void insertMemberData() {
+        iCoffeeMemberMapper.insertMemberData();
+    }
 }

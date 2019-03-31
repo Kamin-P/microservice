@@ -17,49 +17,49 @@ import java.util.Random;
 
 @RestController
 public class CoffeeOrderStatusRestController {
-	Logger logger = LoggerFactory.getLogger(CoffeeOrderStatusRestController.class);
+    Logger logger = LoggerFactory.getLogger(CoffeeOrderStatusRestController.class);
 
-	@Autowired
+    @Autowired
     ICoffeeStatusMapper iCoffeeStatusMapper;
-	
-	@HystrixCommand
-	@RequestMapping(value = "/coffeeOrderStatus", method = RequestMethod.POST)
-	public ResponseEntity<OrderStatusDVO> coffeeOrderStatus() {
-		
-		OrderStatusDVO orderStatusDVO = iCoffeeStatusMapper.selectCoffeeOrderStatus();
-		
-		return new ResponseEntity<OrderStatusDVO>(orderStatusDVO, HttpStatus.OK);
-	}
-	
-	@RequestMapping(value = "/createStatusTable", method = RequestMethod.PUT)
-	public void createStatusTable() {
-		iCoffeeStatusMapper.createStatusTable();
-	}
 
-	@HystrixCommand
-	@RequestMapping(value = "/coffeeOrderStatusWaiting", method = RequestMethod.POST)
-	public ResponseEntity<OrderStatusDVO> coffeeOrderStatusWaiting() {
-		randomlyRunLong();
+    @HystrixCommand
+    @RequestMapping(value = "/coffeeOrderStatus", method = RequestMethod.POST)
+    public ResponseEntity<OrderStatusDVO> coffeeOrderStatus() {
 
-		OrderStatusDVO orderStatusDVO = iCoffeeStatusMapper.selectCoffeeOrderStatus();
+        OrderStatusDVO orderStatusDVO = iCoffeeStatusMapper.selectCoffeeOrderStatus();
 
-		return new ResponseEntity<OrderStatusDVO>(orderStatusDVO, HttpStatus.OK);
-	}
+        return new ResponseEntity<OrderStatusDVO>(orderStatusDVO, HttpStatus.OK);
+    }
 
-	private void randomlyRunLong() {
-		Random rand = new Random();
-		int randomNum = rand.nextInt((3 - 1) + 1) + 1;
+    @RequestMapping(value = "/createStatusTable", method = RequestMethod.PUT)
+    public void createStatusTable() {
+        iCoffeeStatusMapper.createStatusTable();
+    }
 
-		logger.debug("OrderStatusService.coffeeOrderStatusWaiting:" + randomNum);
-		if (randomNum == 3)
-			sleep();
-	}
+    @HystrixCommand
+    @RequestMapping(value = "/coffeeOrderStatusWaiting", method = RequestMethod.POST)
+    public ResponseEntity<OrderStatusDVO> coffeeOrderStatusWaiting() {
+        randomlyRunLong();
 
-	private void sleep() {
-		try {
-			Thread.sleep(11000);
-		} catch (InterruptedException ex) {
-			ex.printStackTrace();
-		}
-	}
+        OrderStatusDVO orderStatusDVO = iCoffeeStatusMapper.selectCoffeeOrderStatus();
+
+        return new ResponseEntity<OrderStatusDVO>(orderStatusDVO, HttpStatus.OK);
+    }
+
+    private void randomlyRunLong() {
+        Random rand = new Random();
+        int randomNum = rand.nextInt((3 - 1) + 1) + 1;
+
+        logger.debug("OrderStatusService.coffeeOrderStatusWaiting:" + randomNum);
+        if (randomNum == 3)
+            sleep();
+    }
+
+    private void sleep() {
+        try {
+            Thread.sleep(11000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
 }

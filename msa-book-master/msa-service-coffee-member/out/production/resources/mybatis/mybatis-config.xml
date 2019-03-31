@@ -3,16 +3,16 @@
 
 <configuration>
 
-	<settings>
-		<setting name="mapUnderscoreToCamelCase" value="true"/>
-	</settings>
-	
-	<typeAliases>
-		<typeAlias alias="sql" type="java.util.HashMap"/>
-	</typeAliases>
-	
-	<mappers>
-		<mapper resource="sql/microservice.xml"/>
-	</mappers>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias alias="sql" type="java.util.HashMap"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="sql/microservice.xml"/>
+    </mappers>
 
 </configuration>

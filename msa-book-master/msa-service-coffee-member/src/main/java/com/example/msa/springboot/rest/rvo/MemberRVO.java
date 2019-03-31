@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class MemberRVO {
-	private int id;
-	private String memberName;
+    private int id;
+    private String memberName;
 }

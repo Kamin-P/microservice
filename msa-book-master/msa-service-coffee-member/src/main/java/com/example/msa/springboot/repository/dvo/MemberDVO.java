@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class MemberDVO {
-	private int id;
-	private String memberName; //회원명 
+    private int id;
+    private String memberName; //회원명
 }

@@ -6,10 +6,12 @@ import com.example.msa.springboot.repository.dvo.OrderStatusDVO;
 
 @Mapper
 public interface ICoffeeStatusMapper {
-	int insertCoffeeOrderStatus(OrderStatusDVO orderStatusDVO);
-	OrderStatusDVO selectCoffeeOrderStatus();
-	int createStatusTable();
+    int insertCoffeeOrderStatus(OrderStatusDVO orderStatusDVO);
 
-	// payment
-	int insertCoffeeOrderPayment(OrderStatusDVO orderStatusDVO);
+    OrderStatusDVO selectCoffeeOrderStatus();
+
+    int createStatusTable();
+
+    // payment
+    int insertCoffeeOrderPayment(OrderStatusDVO orderStatusDVO);
 }

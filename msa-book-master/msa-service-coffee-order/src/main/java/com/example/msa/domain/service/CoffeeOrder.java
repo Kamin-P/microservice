@@ -6,23 +6,23 @@ import com.example.msa.domain.repository.ICoffeeOrderRepository;
 
 public class CoffeeOrder implements ICoffeeOrder {
 
-	private ICoffeeOrderRepository iCoffeeOrderRepository;
+    private ICoffeeOrderRepository iCoffeeOrderRepository;
 
-	public CoffeeOrder(ICoffeeOrderRepository iCoffeeOrderRepository) {
-		this.iCoffeeOrderRepository = iCoffeeOrderRepository;
-	}
-	
-	@Override
-	public String coffeeOrder(CoffeeOrderCVO coffeeOrderCVO) {
-		
-		OrderEntity orderEntity = new OrderEntity();
-		orderEntity.setOrderNumber(coffeeOrderCVO.getOrderNumber());
-		orderEntity.setCoffeeName(coffeeOrderCVO.getCoffeeName());
-	    orderEntity.setCoffeeCount(coffeeOrderCVO.getCoffeeCount());
-	    orderEntity.setCustomerName(coffeeOrderCVO.getCustomerName());
-	    
-		iCoffeeOrderRepository.coffeeOrderSave(orderEntity);
-		
-		return orderEntity.getId();
-	}
+    public CoffeeOrder(ICoffeeOrderRepository iCoffeeOrderRepository) {
+        this.iCoffeeOrderRepository = iCoffeeOrderRepository;
+    }
+
+    @Override
+    public String coffeeOrder(CoffeeOrderCVO coffeeOrderCVO) {
+
+        OrderEntity orderEntity = new OrderEntity();
+        orderEntity.setOrderNumber(coffeeOrderCVO.getOrderNumber());
+        orderEntity.setCoffeeName(coffeeOrderCVO.getCoffeeName());
+        orderEntity.setCoffeeCount(coffeeOrderCVO.getCoffeeCount());
+        orderEntity.setCustomerName(coffeeOrderCVO.getCustomerName());
+
+        iCoffeeOrderRepository.coffeeOrderSave(orderEntity);
+
+        return orderEntity.getId();
+    }
 }

@@ -11,20 +11,20 @@ import com.example.msa.springboot.repository.jpa.ICoffeeOrderJpaRepository;
 @Repository
 public class CoffeeOrderRepository implements ICoffeeOrderRepository {
 
-	@Autowired
-	private ICoffeeOrderJpaRepository iCoffeeOrderJpaRepository;
-	
-	@Override
-	public String coffeeOrderSave(OrderEntity orderEntity) {
-		
-		OrderEntityJPO orderEntityJPO = new OrderEntityJPO();
-		orderEntityJPO.setOrderNumber(orderEntity.getOrderNumber());
-		orderEntityJPO.setCoffeeName(orderEntity.getCoffeeName());
-		orderEntityJPO.setCoffeeCount(orderEntity.getCoffeeCount());
+    @Autowired
+    private ICoffeeOrderJpaRepository iCoffeeOrderJpaRepository;
+
+    @Override
+    public String coffeeOrderSave(OrderEntity orderEntity) {
+
+        OrderEntityJPO orderEntityJPO = new OrderEntityJPO();
+        orderEntityJPO.setOrderNumber(orderEntity.getOrderNumber());
+        orderEntityJPO.setCoffeeName(orderEntity.getCoffeeName());
+        orderEntityJPO.setCoffeeCount(orderEntity.getCoffeeCount());
         orderEntityJPO.setCustomerName(orderEntity.getCustomerName());
-        
-		iCoffeeOrderJpaRepository.save(orderEntityJPO);
-		
-		return orderEntityJPO.getId();
-	}
+
+        iCoffeeOrderJpaRepository.save(orderEntityJPO);
+
+        return orderEntityJPO.getId();
+    }
 }

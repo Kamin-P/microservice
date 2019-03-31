@@ -15,10 +15,10 @@ import lombok.Setter;
 @Getter
 public class OrderEntityJPO extends OrderEntity {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
-	
+
     String orderNumber; //주문번호 
     String coffeeName;  //커피종류 
     String coffeeCount; //커피개수 

@@ -5,9 +5,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient("msa-service-coffee-member")
-public interface IMsaServiceCoffeeMember {
+import java.util.Map;
 
-    @RequestMapping(value = "/coffeeMember/v1.0/{memberName}", method = RequestMethod.GET)
-    boolean coffeeMember(@PathVariable("memberName") String memberName);
+@FeignClient("msa-service-coffee-payment")
+public interface IMsaServiceCoffeePayment {
+
+    @RequestMapping(value = "/doPayment", method = RequestMethod.POST)
+    boolean payment(Map<String, ?> queryMap);
 }
