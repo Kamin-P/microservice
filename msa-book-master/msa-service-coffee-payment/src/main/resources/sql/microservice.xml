@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.msa.springboot.repository.ICoffeePaymentMapper">
+    <update id="createPaymentTable" parameterType="com.example.msa.springboot.repository.dvo.PaymentDVO">
+		 create table coffee_order_payment(
+			   id bigint primary key auto_increment
+			 , order_id varchar(255)
+			 , customer_name varchar(255)
+			 , price int
+		 );
+	</update>
+
+    <insert id="insertCoffeePayment" parameterType="com.example.msa.springboot.repository.dvo.PaymentDVO" useGeneratedKeys="true" keyProperty="id">
+	 	insert into coffee_order_payment(order_id, customer_name, price) values (
+	 	    #{orderId}, #{customerName}, #{price}
+	 	)
+	</insert>
+
+    <select id="selectCoffeePayment" parameterType="com.example.msa.springboot.repository.dvo.PaymentDVO"
+            resultType="com.example.msa.springboot.repository.dvo.PaymentDVO">
+	 	select id, order_history from coffee_order_payment
+	</select>
+</mapper>
