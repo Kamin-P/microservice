@@ -3,7 +3,6 @@ package com.example.msa.springboot.rest;
 import com.example.msa.domain.model.CoffeeOrderCVO;
 import com.example.msa.springboot.messageq.KafkaProducer;
 import com.example.msa.springboot.service.CoffeeOrderServiceImpl;
-import com.example.msa.springboot.service.IMsaServiceCoffeePayment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,9 +29,6 @@ public class CoffeeOrderRestController {
     @Autowired
     private IMsaServiceCoffeeMember iMsaServiceCoffeeMember;
 
-    @Autowired
-    private IMsaServiceCoffeePayment iMsaServiceCoffeePayment;
-
     @HystrixCommand
     @RequestMapping(value = "/coffeeOrder", method = RequestMethod.POST)
     public ResponseEntity<CoffeeOrderCVO> coffeeOrder(@RequestBody CoffeeOrderCVO coffeeOrderCVO) {
@@ -47,14 +43,6 @@ public class CoffeeOrderRestController {
 
         //kafka
         kafkaProducer.send("example-kafka-test", coffeeOrderCVO);
-
-        //payment
-        Map<String, String> maps = new HashMap<>();
-        maps.put("orderId", coffeeOrderCVO.getOrderNumber());
-        maps.put("customername", coffeeOrderCVO.getCustomerName());
-        maps.put("qty", coffeeOrderCVO.getCoffeeCount());
-
-        iMsaServiceCoffeePayment.payment(maps);
 
         return new ResponseEntity<CoffeeOrderCVO>(coffeeOrderCVO, HttpStatus.OK);
     }

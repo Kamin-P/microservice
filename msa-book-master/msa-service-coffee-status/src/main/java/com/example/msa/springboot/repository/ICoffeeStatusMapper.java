@@ -11,7 +11,4 @@ public interface ICoffeeStatusMapper {
     OrderStatusDVO selectCoffeeOrderStatus();
 
     int createStatusTable();
-
-    // payment
-    int insertCoffeeOrderPayment(OrderStatusDVO orderStatusDVO);
 }
