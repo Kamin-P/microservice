@@ -3,29 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="msa" target="1.8" />
-      <module name="msa-book_main" target="1.8" />
-      <module name="msa-book_test" target="1.8" />
-      <module name="msa-service-coffee-member_main" target="1.8" />
-      <module name="msa-service-coffee-member_test" target="1.8" />
-      <module name="msa-service-coffee-order_main" target="1.8" />
-      <module name="msa-service-coffee-order_test" target="1.8" />
-      <module name="msa-service-coffee-payment_main" target="1.8" />
-      <module name="msa-service-coffee-payment_test" target="1.8" />
-      <module name="msa-service-coffee-status_main" target="1.8" />
-      <module name="msa-service-coffee-status_test" target="1.8" />
-    </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="msa" options="-parameters" />
-    </option>
   </component>
 </project>

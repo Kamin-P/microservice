@@ -1,0 +1,19 @@
+0. https://gradle.org/releases/
+    - Gradle v5.4 다운로드 (binary-only)
+    - 압축 해제
+1. Intellij 실행 
+2. Import Projects 
+    - (다운로드 or Checkout 한 프로젝트 중)
+    - msa-book-master 프로젝트 선택
+    - Gradle Build 선택
+        - Gradle Home 디렉토리에 위의 Gradle 디렉토리 지정
+3. Gradle Build가 완료되면 
+    - 화면 왼쪽의 External Libraries 항목에 필요한 라이브러리가 다운로드 됨 (spring, netflix 등)
+4. File > Settings 메뉴
+    - Plugins > Maketplace 
+        - Lombok 검색
+        - Lombok plugin 설치 후 Intellig 재시작
+    - Build, Execution, Deployment 항목에서
+        - Compiler > Annotaion Processors 메뉴에서
+            - Enable annotation processing 항목 체크
+
