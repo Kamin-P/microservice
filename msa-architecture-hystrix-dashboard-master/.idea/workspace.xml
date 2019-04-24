@@ -3,32 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c46ffd3-58b4-4c45-be16-31b434b2c4f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-eureka-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-eureka-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-book-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-order/src/main/java/com/example/msa/springboot/rest/CoffeeOrderRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-order/src/main/java/com/example/msa/springboot/rest/CoffeeOrderRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-order/src/main/java/com/example/msa/springboot/service/IMsaServiceCoffeePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/java/com/example/msa/MicroServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/configuration/WebConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/repository/ICoffeePaymentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/repository/dvo/PaymentDVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/rest/CoffeePaymentRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/main/resources/sql/microservice.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/test/java/com/example/msa/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-payment/src/test/java/com/example/msa/MsaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-book-master/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdf/MSA1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdf/MSA2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdf/MSA3_example.pdf" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,7 +69,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="5" />
     <option name="y" value="23" />
     <option name="width" value="1877" />
@@ -208,15 +183,15 @@
       <updated>1553781516464</updated>
       <workItem from="1553781517670" duration="7481000" />
       <workItem from="1554048093678" duration="634000" />
-      <workItem from="1556036849042" duration="1762000" />
+      <workItem from="1556036849042" duration="2106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9877000" />
+    <option name="totallyTimeSpent" value="10221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="23" width="1877" height="1177" extended-state="1" />
+    <frame x="5" y="23" width="1877" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19019073" />

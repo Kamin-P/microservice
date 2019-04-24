@@ -3,32 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bae66c48-507a-4124-a442-b7704be71c23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-eureka-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-eureka-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-turbine-server-master/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-order/src/main/java/com/example/msa/springboot/rest/CoffeeOrderRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msa-service-coffee-order/src/main/java/com/example/msa/springboot/rest/CoffeeOrderRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-order/src/main/java/com/example/msa/springboot/service/IMsaServiceCoffeePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/java/com/example/msa/MicroServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/configuration/WebConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/repository/ICoffeePaymentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/repository/dvo/PaymentDVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/java/com/example/msa/springboot/rest/CoffeePaymentRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/main/resources/sql/microservice.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/test/java/com/example/msa/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-payment/src/test/java/com/example/msa/MsaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/msa-service-coffee-status/src/main/java/com/example/msa/springboot/repository/ICoffeeStatusMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdf/MSA1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdf/MSA2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdf/MSA3_example.pdf" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -158,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="360">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -264,8 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1877" />
     <option name="height" value="1177" />
@@ -513,7 +486,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556063374884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556063500561" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -701,7 +674,7 @@
       <workItem from="1553784263210" duration="30896000" />
       <workItem from="1554045351894" duration="8769000" />
       <workItem from="1554080151587" duration="551000" />
-      <workItem from="1556062809196" duration="565000" />
+      <workItem from="1556062809196" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="update build.gradle files">
       <created>1553833137069</created>
@@ -756,10 +729,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62969000" />
+    <option name="totallyTimeSpent" value="63313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1877" height="1177" extended-state="6" />
+    <frame x="0" y="23" width="1877" height="1177" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2948229" />
@@ -1105,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="360">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
