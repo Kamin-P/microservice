@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.Properties;
 
 public class ConsumerMain {
-    private static final String TOPIC_NAME = "taeng";
+    private static final String TOPIC_NAME = "test20190425";
     private static final String FIN_MESSAGE = "exit";
 
     public static void main(String[] args) {

@@ -17,7 +17,8 @@ public class SimpleFilter extends ZuulFilter {
 	    RequestContext ctx = RequestContext.getCurrentContext();
 	    HttpServletRequest request = ctx.getRequest();
 
-	    System.out.println(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
+	    System.out.println(String.format("%s request to %s", request.getMethod(),
+				request.getRequestURL().toString()));
 
 	    return null;
 	}

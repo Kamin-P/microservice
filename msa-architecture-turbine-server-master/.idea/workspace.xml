@@ -2,10 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50680315-0012-4ce8-bf2e-4e6abb997086" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../webflux/src/main/java/com/example/webflux/FluxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KafkaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KafkaDemo/out/production/KafkaDemo/test/ConsumerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaDemo/out/production/KafkaDemo/test/ConsumerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KafkaDemo/out/production/KafkaDemo/test/ProducerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaDemo/out/production/KafkaDemo/test/ProducerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KafkaDemo/src/test/ConsumerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaDemo/src/test/ConsumerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KafkaDemo/src/test/ProducerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KafkaDemo/src/test/ProducerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_googlecode_javaewah_JavaEWAH_0_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_55.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_55.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_eclipse_jgit_org_eclipse_jgit_3_6_1_201501031845_r.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_1_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_config_client_1_4_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_config_server_1_4_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_1_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_context_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_core_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_test_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_web_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/modules/msa-echosystem.msa-architecture-config-server-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/modules/msa-echosystem.msa-architecture-config-server-master.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/modules/msa-echosystem.msa-architecture-config-server-master.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-config-server-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-architecture-eureka-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-eureka-server-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-hystrix-dashboard-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/out/production/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/src/main/java/com/example/msa/zuul/SimpleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-architecture-zuul-server-master/src/main/java/com/example/msa/zuul/SimpleFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../msa-book-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../msa-book-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,11 +121,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/msa/turbine/MsaTurbineApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="120">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#486#487#0" expanded="true" />
@@ -54,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+            <state relative-caret-position="48">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -85,7 +165,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="323" />
     <option name="width" value="1404" />
     <option name="height" value="877" />
   </component>
@@ -97,8 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +234,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554000279609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556162007065" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -193,16 +273,18 @@
       <workItem from="1553781552735" duration="7403000" />
       <workItem from="1554048071868" duration="1262000" />
       <workItem from="1556036835756" duration="2124000" />
+      <workItem from="1556159279941" duration="509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10789000" />
+    <option name="totallyTimeSpent" value="11298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1404" height="877" extended-state="0" />
+    <frame x="0" y="323" width="1404" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1585903" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16079295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -212,7 +294,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7235669" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7235669" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,7 +314,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.21071953" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.21071953" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -243,21 +325,21 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/msa/turbine/MsaTurbineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#486#487#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
         </state>
       </provider>
     </entry>
