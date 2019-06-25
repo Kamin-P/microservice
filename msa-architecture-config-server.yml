@@ -8,7 +8,7 @@ spring:
   profiles: local
 
 msaconfig:
-  greeting: "welcome to local server."
+  greeting: "welcome to local server!"
   topic-name: "coffee-topic-local"
   
 ---
