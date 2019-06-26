@@ -1,0 +1,48 @@
+msaconfig:
+  greeting: "hello"
+  topic-name: "coffee-topic"
+  
+---
+
+spring:
+  profiles: local
+
+msaconfig:
+  greeting: "welcome to local server!"
+  topic-name: "coffee-topic-local"
+  
+---
+
+spring:
+  profiles: dev
+
+msaconfig:
+  greeting: "welcome to dev server"
+  topic-name: "coffee-topic-dev"
+  
+---
+
+spring:
+  profiles: test
+  
+msaconfig:
+  greeting: "welcome to test server"
+  topic-name: "coffee-topic-test"
+
+---
+
+spring:
+  profiles: staging
+  
+msaconfig:
+  greeting: "welcome to staging server"
+  topic-name: "coffee-topic-staging"
+
+---
+
+spring:
+  profiles: prod
+  
+msaconfig:
+  greeting: "welcome to prod server"
+  topic-name: "coffee-topic-prod"
